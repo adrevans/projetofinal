@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+html * {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 20px;
+}
+h1 {background-color: white;
+    padding: 90px 30px;
+
+    background-image: url("imagens/0001.jpg");
+    background-position: center;
+    background-size: cover;
+
+    font-size: 42px;
+    text-shadow: 3px 3px white;
+    text-align: center;
+}
+
+.grid-nav {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-nav-item {
+  color: #424242;
+  padding: 18px 24px;
+  text-align: center;
+  text-decoration: none;
+}
+.grid-nav-item:hover {
+  background-color: #00B0D8;
+  text-decoration: underline;
+}
+.grid-main-index {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 22px;
+  padding: 22px;
+}
+
+img {
+  max-width: 100%;
+}
+.caixa {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.cartao {
+  background-color: #F6F6F6;
+  padding: 20px;
+}
+.btn {
+  background-color: orange;
+  color: #424242;
+  display: inline-block;
+  font-weight: 700;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.textospage { font-size: 18px; text-align: justify; line-height: 1.5;}
+
+footer {background-color: #2E2E2E; padding-top: 18px;
+}
+
+.circle-icons {
+
+  padding: 10px; /* espaçamento */
+
+  font-size: 18px; /* tamanho do icone */
+
+  width: 18px; /* tamanho do fundo */
+
+  text-align: center;
+
+  text-decoration: none;
+
+  margin: 5px 2px; /* espaçamento entre eles */
+
+  border-radius: 50%;
+
+  background: #f0e9e9; /* cor do fundo */
+
+  color: #fff; /*cor do icone */
+
+}
+
+#rodape {color: white; font-size: 20px;
+}
